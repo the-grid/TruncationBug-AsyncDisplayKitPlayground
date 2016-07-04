@@ -139,6 +139,8 @@ class Root: ASDisplayNode, ASCollectionDelegate, ASCollectionDataSource {
     }
     
     func handleZoomTouch() {
+        zoomButton.userInteractionEnabled = false
+        zoomButton.alpha = 0.5
         let layout = ASCollectionViewVerticalLayout(horizontalItemCount: 1, horizontalGap: 8, verticalGap: 8, collectionBounds: collection.bounds)
         
         collection.view.startInteractiveTransitionToCollectionViewLayout(layout) {

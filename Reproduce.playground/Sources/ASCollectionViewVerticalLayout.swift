@@ -9,13 +9,11 @@ public class ASCollectionViewVerticalLayout: UICollectionViewLayout, ASCollectio
     public var itemSize = CGSizeZero
     var rowHeight: Int = 0
     
-    required public init(horizontalItemCount hic: Int, horizontalGap hg: CGFloat, verticalGap vg: CGFloat, collectionBounds: CGRect? = .None) {
+    required public init(horizontalItemCount hic: Int, horizontalGap hg: CGFloat, verticalGap vg: CGFloat, collectionBounds: CGRect) {
         horizontalItemCount = hic
         horizontalGap = hg
         verticalGap = vg
-        if let bounds = collectionBounds {
-            itemSize = ASCollectionViewVerticalLayout.itemSizeForBounds(bounds, horizontalGap: horizontalGap, horizontalItemCount: hic)
-        }
+        itemSize = ASCollectionViewVerticalLayout.itemSizeForBounds(collectionBounds, horizontalGap: horizontalGap, horizontalItemCount: hic)
         super.init()
     }
     
