@@ -14,13 +14,23 @@ PODS:
     - PINRemoteImage/Core
 
 DEPENDENCIES:
-  - AsyncDisplayKit
+  - AsyncDisplayKit (from `https://github.com/maicki/AsyncDisplayKit.git`, branch `MSFixTextNodeTruncation`)
+
+EXTERNAL SOURCES:
+  AsyncDisplayKit:
+    :branch: MSFixTextNodeTruncation
+    :git: https://github.com/maicki/AsyncDisplayKit.git
+
+CHECKOUT OPTIONS:
+  AsyncDisplayKit:
+    :commit: 9d1e6691085f994dcbc4789e87881ee2f4ce0ad5
+    :git: https://github.com/maicki/AsyncDisplayKit.git
 
 SPEC CHECKSUMS:
   AsyncDisplayKit: ab57b10cd058797015c77be10407f3dc13027c85
   PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
   PINRemoteImage: 197554c5ba57a6ae90f5db441651180039fc9062
 
-PODFILE CHECKSUM: ba0b82341b80e9b83763031c747edd582935e283
+PODFILE CHECKSUM: 58a306b1601345f757432c9e7ecbb5fcaedf7452
 
 COCOAPODS: 1.0.1

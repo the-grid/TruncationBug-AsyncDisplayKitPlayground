@@ -163,7 +163,7 @@ class Root: ASDisplayNode, ASCollectionDelegate, ASCollectionDataSource {
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 200
+        return 50
     }
 
     func collectionView(collectionView: ASCollectionView, constrainedSizeForNodeAtIndexPath indexPath: NSIndexPath) -> ASSizeRange {
