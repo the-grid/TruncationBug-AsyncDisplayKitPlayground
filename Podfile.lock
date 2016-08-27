@@ -1,36 +1,36 @@
 PODS:
-  - AsyncDisplayKit (1.9.80):
-    - AsyncDisplayKit/PINRemoteImage (= 1.9.80)
-  - AsyncDisplayKit/ASDealloc2MainObject (1.9.80)
-  - AsyncDisplayKit/Core (1.9.80):
+  - AsyncDisplayKit (2.0-beta.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.0-beta.1)
+  - AsyncDisplayKit/ASDealloc2MainObject (2.0-beta.1)
+  - AsyncDisplayKit/Core (2.0-beta.1):
     - AsyncDisplayKit/ASDealloc2MainObject
-  - AsyncDisplayKit/PINRemoteImage (1.9.80):
+  - AsyncDisplayKit/PINRemoteImage (2.0-beta.1):
     - AsyncDisplayKit/Core
-    - PINRemoteImage/iOS (>= 3.0.0-beta.2)
-  - PINCache (2.2.2)
-  - PINRemoteImage/Core (3.0.0-beta.2):
-    - PINCache (>= 2.1)
-  - PINRemoteImage/iOS (3.0.0-beta.2):
+    - PINRemoteImage/iOS (>= 3.0.0-beta.3)
+  - PINCache (3.0.1-beta)
+  - PINRemoteImage/Core (3.0.0-beta.3):
+    - PINCache (>= 3.0.0-beta)
+  - PINRemoteImage/iOS (3.0.0-beta.3):
     - PINRemoteImage/Core
 
 DEPENDENCIES:
-  - AsyncDisplayKit (from `https://github.com/maicki/AsyncDisplayKit.git`, branch `MSFixTextNodeTruncation`)
+  - AsyncDisplayKit (from `https://github.com/facebook/AsyncDisplayKit.git`, branch `master`)
 
 EXTERNAL SOURCES:
   AsyncDisplayKit:
-    :branch: MSFixTextNodeTruncation
-    :git: https://github.com/maicki/AsyncDisplayKit.git
+    :branch: master
+    :git: https://github.com/facebook/AsyncDisplayKit.git
 
 CHECKOUT OPTIONS:
   AsyncDisplayKit:
-    :commit: 9d1e6691085f994dcbc4789e87881ee2f4ce0ad5
-    :git: https://github.com/maicki/AsyncDisplayKit.git
+    :commit: f542e8d458df01f18d50a4d7792908b9ac945c07
+    :git: https://github.com/facebook/AsyncDisplayKit.git
 
 SPEC CHECKSUMS:
-  AsyncDisplayKit: ab57b10cd058797015c77be10407f3dc13027c85
-  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
-  PINRemoteImage: 197554c5ba57a6ae90f5db441651180039fc9062
+  AsyncDisplayKit: 0bc09eccc8627e05983b89b9b01daf749c552eeb
+  PINCache: 6911fe422a633e18b3d3ddf2bd4f0e55e36e2892
+  PINRemoteImage: 308731aa6534500e58fc211b9cc2bb7252df25ba
 
-PODFILE CHECKSUM: 58a306b1601345f757432c9e7ecbb5fcaedf7452
+PODFILE CHECKSUM: 2191c2644f3a0137af3abd690e262e7bf2fe4776
 
 COCOAPODS: 1.0.1

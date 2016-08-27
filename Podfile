@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'AsyncDisplayKitPlayground' do
-pod 'AsyncDisplayKit', :git => 'https://github.com/maicki/AsyncDisplayKit.git', :branch => 'MSFixTextNodeTruncation'
+pod 'AsyncDisplayKit', :git => 'https://github.com/facebook/AsyncDisplayKit.git', :branch => 'master'
 end
 
 post_install do |installer|
